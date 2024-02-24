@@ -1,5 +1,4 @@
-import CartWidget from "./CartWidget";
-
+import CartWidget from "./CartWidget.jsx";
 
 const Navbar = () => {
     return (
@@ -9,7 +8,7 @@ const Navbar = () => {
                 <div><li className="text-white font-black"><a href="#">Inicio</a></li></div>
                 <div><li className="text-white font-black"><a href="#">Producto</a></li></div>
                 <div><li className="text-white font-black"><a href="#">Contacto</a></li></div>        
-                     
+               <CartWidget/>
             </div>
         </nav>
     );
